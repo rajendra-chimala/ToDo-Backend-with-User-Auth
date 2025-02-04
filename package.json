@@ -1,0 +1,29 @@
+{
+  "name": "todo-backend-with-user-auth",
+  "version": "1.0.0",
+  "description": "A RESTful To-Do List Backend with user authentication built using Node.js, Express.js, and MongoDB. It supports secure user registration, login with JWT-based authentication, and CRUD operations for managing tasks.",
+  "homepage": "https://github.com/rajendra-chimala/ToDo-Backend-with-User-Auth#readme",
+  "bugs": {
+    "url": "https://github.com/rajendra-chimala/ToDo-Backend-with-User-Auth/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajendra-chimala/ToDo-Backend-with-User-Auth.git"
+  },
+  "license": "MIT",
+  "author": "Rajendra Chimala",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.6",
+    "nodemon": "^3.1.9"
+  }
+}
